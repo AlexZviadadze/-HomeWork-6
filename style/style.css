@@ -6,6 +6,7 @@
 
 body{
     background-color: #0A22F4;
+    font-family: 'DejaVu Sans';
 }
 
 .left-section{
@@ -24,26 +25,30 @@ body{
 
 .text-pragraph{
     color: white;
-    width: 300px;
-    font-size: 15px;
+    width: 430px;
+    font-size: 17px;
     margin-top: 30px;
 }
 
-
-.map-box {
-    margin-top: 40px;
+.mapouter {
     position: relative;
-    text-align: left;
+    text-align: right;
     width: 463px;
     height: 197px;
-}
-
-.map-design {
+    margin-top: 30px;
+  }
+  .gmap_canvas {
     overflow: hidden;
     background: none !important;
     width: 463px;
     height: 197px;
-}
+  }
+  .gmap_iframe {
+    width: 463px !important;
+    height: 197px !important;
+    border-radius: 15px;
+  }
+
 
 .contact-wrapper {
     margin-top: 50px;
@@ -87,4 +92,40 @@ body{
     margin: 15px;
     font-size: 19px;
     font-weight: bold;
+}
+
+input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    height: 50px;
+    width: 500px;
+    margin: 18px;
+}
+
+::placeholder{
+    color: white;
+    font-weight: bold;
+}
+
+.right-section{
+    margin-top: 200px;
+    margin-left: 165px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+button{
+    margin-left: 400px;
+    width: 120px;
+    height: 45px;
+    border-radius: 18px;
+    border: none;
+    margin-top: 15px;
+}
+
+button:hover{
+    cursor: pointer;
 }
